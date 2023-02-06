@@ -1,0 +1,183 @@
+/* IMPORTED NOTO SANS FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+/* RESET */
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL SETTINGS*/
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 2rem 10vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section {
+    padding: 3rem;
+    border: 10px solid white;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+div {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    margin: 20px;
+}
+
+/* HEADER */
+
+header img {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* FONT SECTION*/
+
+.fake-h1 {
+    font-size: 3rem;
+}
+
+.fake-h2 {
+    font-size: 2rem;
+}
+
+.fake-h3 {
+    font-size: 1.5rem;
+}
+
+.fake-p {
+    font-size: 1.2rem;
+}
+
+p.fake-h1.styled {
+    text-decoration: underline;
+}
+
+p.fake-h2.styled {
+    text-decoration: wavy underline;
+}
+
+p.fake-h3.styled {
+    font-style: italic;
+}
+
+section.font p:hover {
+    background-color: #3b8526;
+}
+
+/* BUTTONS */
+
+button {
+    font-family: 'Noto Sans';
+    border: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.buttons div:nth-of-type(1) h2 {
+    margin-bottom: 100px;
+}
+
+.btn-1 {
+    background-color: #3b8526;
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0, 0, 0, .25);
+}
+
+.btn-2 {
+    background-color: #3b8526;
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0, 0, 0, .25);
+}
+
+.btn-2:hover {
+    background: linear-gradient(rgb(61, 57, 56), rgb(23, 22, 21));
+    box-shadow: none;
+}
+
+.btn-3 {
+    background-color: #3b8526;
+    box-shadow: inset 0 4px #6bc349, inset 0 -4px #2a631c, 0 4px rgba(0, 0, 0, .25);
+    margin-bottom: 100px;
+}
+
+.btn-3:active {
+    background-color: rgb(74, 73, 75);
+    box-shadow: rgb(141, 142, 146) 0px -2px 0px 0px inset, rgb(0, 0, 0) 0px 2px 0px 0px inset;
+}
+
+/* COLORS */
+
+.buttons div:nth-of-type(2) h2 {
+    margin-bottom: 110px;
+}
+
+.buttons .col-2 div {
+    border-radius: 50%;
+}
+
+.buttons .col-2 div:nth-of-type(1) {
+    width: 100px;
+    height: 100px;
+    background-color: #3b8526;
+}
+
+.buttons .col-2 div:nth-of-type(2) {
+    width: 100px;
+    height: 100px;
+    background-color: #6bc349;
+}
+
+.buttons .col-2 div:nth-of-type(3) {
+    width: 100px;
+    height: 100px;
+    background-color: #2a631c;
+}
+
+.buttons .col-2 div:nth-of-type(4) {
+    width: 100px;
+    height: 100px;
+    background-color: #d0c5c0;
+}
+
+.buttons .col-2 div:nth-of-type(5) {
+    width: 100px;
+    height: 100px;
+    background-color: #3d3938;
+    margin-bottom: 100px;
+}
